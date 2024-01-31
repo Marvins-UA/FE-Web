@@ -1,0 +1,71 @@
+@import '../../colors';
+.AppTypography{
+  font-family: 'Inter';
+  font-style: normal;
+  margin:0;
+
+  &.SizeTitle1{
+    font-size: 42.6px;
+  }
+  &.SizeTitle2{
+    font-size: 32px;
+  }
+  &.SizeTitle3{
+    font-size: 24px;
+  }
+  &.SizeTitle4{
+    font-size: 21.3px;
+  }
+  &.SizeTitle5{
+    font-size: 16px;
+  }
+  &.SizeTitle6{
+    font-size: 13.3px;
+  }
+  &.SizeTitle7{
+    font-size: 10.6px;
+  }
+  &.SizeTitle8{
+    font-size: 10px;
+  }
+  &.SizeTitle9{
+    font-size: 9.3px;
+  }
+  &.SizeTitle10{
+    font-size: 8.6px;
+  }
+  &.FontWeightBody1{
+    font-weight: 900;
+  }
+  &.FontWeightBody2{
+    font-weight: 533;
+  }
+  &.FontWeightBody3{
+    font-weight: 467;
+  }
+  &.FontWeightBody4{
+    font-weight: 400;
+  }
+  &.FontWeightBody5{
+    font-weight: 333;
+  }
+  &.TextColorWhite{
+    color:$white;
+  }
+  &.TextColorDarkGrey{
+    color:$darkGrey;
+  }
+  &.TextColorGrey{
+    color:$grey;
+  }
+  &.TextColorLightGrey{
+    color:$lightGrey;
+  }
+  &.TextColorGreen{
+    color:$green;
+  }
+  &.TextColorYellow{
+    color:$yellow;
+  }
+}
+

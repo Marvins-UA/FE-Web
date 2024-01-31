@@ -1,0 +1,17 @@
+@import '../../colors';
+
+.AppButton{
+  width: 213px;
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 35.6px;
+  border:none;
+
+  &.BackgroundColorBlue{
+    background: $blueGradient;
+  }
+
+  &.BackgroundColorGreen{
+    background: $darkGreen;
+  }
+}
