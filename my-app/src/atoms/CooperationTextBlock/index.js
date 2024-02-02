@@ -6,7 +6,7 @@ import './style.scss';
 function CooperationTextBlock (props){
     return (
         <div className='CooperationText'>
-            <GreenArrow/>
+            <GreenArrow className='GreenArrow'/>
             {props.children}
         </div>
     )}
