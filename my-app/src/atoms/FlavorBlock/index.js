@@ -8,7 +8,7 @@ function FlavorBlock (props){
     return (
         <div className='FlavorBlock'>
             <img className='FlavorImg' src={img}/>
-            <Typography variant='title4' fontWeight=''>{title}</Typography>
+            <Typography variant='title4' fontWeight='body3'>{title}</Typography>
         </div>
     )
 }

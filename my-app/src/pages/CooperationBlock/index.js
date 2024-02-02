@@ -18,59 +18,68 @@ function CooperationBlock() {
                 <div className='LeftTextBlocks'>
                     <div className='TextBlock'>
                         <CooperationTextBlock>
-                                <Typography variant='title6' fontWeight='body3'>ПОЛІПШЕННЯ ВАШОГО РІВНЯ ОБСЛУГОВУВАННЯ, ЩО КОШТУЄ В <br/>РАЙОНІ 1 ГРИВНІ ЗА ОДИНИЦЮ.</Typography>
+                            <Typography variant='title6' fontWeight='body3'>ПОЛІПШЕННЯ ВАШОГО РІВНЯ ОБСЛУГОВУВАННЯ, ЩО
+                                КОШТУЄ В <br/>РАЙОНІ 1 ГРИВНІ ЗА ОДИНИЦЮ.</Typography>
                         </CooperationTextBlock>
                         <div className='AdditionalInfCooperation'>
-                            <Typography variant='title9' fontWeight='body5' fontStyle='italic'>(ЦІНА ЗАЛЕЖИТЬ ВІД ОБСЯГУ ЗАМОВЛЕННЯ ТА ТИПУ ПІДСОЛОДЖУВАЧА)</Typography>
+                            <Typography variant='title9' fontWeight='body5' fontStyle='italic'>(ЦІНА ЗАЛЕЖИТЬ ВІД ОБСЯГУ
+                                ЗАМОВЛЕННЯ ТА ТИПУ ПІДСОЛОДЖУВАЧА)</Typography>
                         </div>
                     </div>
-                    <CooperationTextBlock>
-                        <div  className='TextBlock2'>
+                    <div className='TextBlock2'>
+                        <CooperationTextBlock>
                             <Typography variant='title6' fontWeight='body3'>
                                 ДОДАТКОВИЙ
-                                <Typography variant='title6' fontWeight='body3' color='green'> БРЕНДОВАНИЙ АТРИБУТ </Typography>
+                                <Typography variant='title6' fontWeight='body3' color='green'> БРЕНДОВАНИЙ
+                                    АТРИБУТ </Typography>
                                 У ВАШОМУ ЗАКЛАДІ,<br/>ЯКИЙ ПРИВЕРНЕ УВАГУ ВАШОГО КЛІЄНТА
                             </Typography>
-                        </div>
-                    </CooperationTextBlock>
+                        </CooperationTextBlock>
+                    </div>
                     <CooperationTextBlock>
-                        <div  className='TextBlock2'>
+                        <div className='TextBlock'>
                             <Typography variant='title6' fontWeight='body3'>
                                 <Typography variant='title6' fontWeight='body3' color='green'>ГІГІЄНА. </Typography>
-                                НАПРИКЛАД ПІСЛЯ СТРАВ З ЧАСНИКОМ MARVINS<br/>ПОВНІСТЮ ПРИБЕРЕ ЗАПАХ ЧАСНИКУ З РОТУ, ТАКОЖ MARVINS<br/>ПРИБИРАЄ ЗАПАХ ПІСЛЯ КУРІННЯ ЦИГАРОК, ЩО ТЕЖ МОЖЕ<br/>СТАТИ В НАГОДІ ДЕЯКИМ ВАШИМ КЛІЄНТАМ
+                                НАПРИКЛАД ПІСЛЯ СТРАВ З ЧАСНИКОМ MARVINS<br/>ПОВНІСТЮ ПРИБЕРЕ ЗАПАХ ЧАСНИКУ З РОТУ,
+                                ТАКОЖ
+                                MARVINS<br/>ПРИБИРАЄ ЗАПАХ ПІСЛЯ КУРІННЯ ЦИГАРОК, ЩО ТЕЖ МОЖЕ<br/>СТАТИ В НАГОДІ ДЕЯКИМ
+                                ВАШИМ КЛІЄНТАМ
                             </Typography>
                         </div>
                     </CooperationTextBlock>
                 </div>
                 <div className='RightTextBlocks'>
                     <CooperationTextBlock>
-                        <div  className='TextBlock2'>
+                        <div className='TextBlock'>
                             <Typography variant='title6' fontWeight='body3'>
                                 СПІВПРАЦЯ З
-                                <Typography variant='title6' fontWeight='body3' color='green'> УКРАЇНСЬКИМ ВИРОБНИКОМ </Typography>
+                                <Typography variant='title6' fontWeight='body3' color='green'> УКРАЇНСЬКИМ
+                                    ВИРОБНИКОМ </Typography>
                                 , ЩО НЕ НЕХТУЄ<br/>СТАНДАНТАРТАМИ ЯКОСТІ ТА БЕЗПЕКИ
                             </Typography>
                         </div>
                     </CooperationTextBlock>
-                    <CooperationTextBlock>
-                        <div  className='TextBlock2'>
+                    <div className='TextBlock5'>
+                        <CooperationTextBlock>
                             <Typography variant='title6' fontWeight='body3'>
-                                <Typography variant='title6' fontWeight='body3' color='green'> МАРКЕТИНГ</Typography>
+                                <Typography variant='title6' fontWeight='body3' color='green'> НАТИВНА РЕКЛАМА</Typography>
                                 , ЩО НАГАДАЄ КЛІЄНТУ ПРО ВАС В СИТУАЦІЇ<br/>КОЛИ ВІН ПОКЛАДЕ ГУМКУ ДО КИШЕНІ І ДІСТАНЕ ЇЇ ЧЕРЕЗ<br/>ДЕЯКИЙ ЧАС
                             </Typography>
-                        </div>
-                    </CooperationTextBlock>
-                    <CooperationTextBlock>
-                        <div  className='TextBlock2'>
-                            <Typography variant='title6' fontWeight='body3'>
-                                ЗРУЧНІСТЬ ДЛЯ ВАС, ТАК ЯК НАША КОМПАНІЯ ПРИКЛАЛА<br/>ЗНАЧНІ ЗУСИЛЛЯ, ЩОБ НАШІ ПАРТНЕРИ ВІДЧУВАЛИ<br/>КОМФОРТ ПРИ СПІВПРАЦІ З НАМИ.
-                                <Typography variant='title6' fontWeight='body3' color='green'> ЦЕЙ САЙТ НАДАСТЬ<br/>ВАМ ВСЮ ІНФОРМАЦІЮ, ЩО ВАС ЦІКАВИТЬ </Typography>
-                            </Typography>
-                        </div>
-                    </CooperationTextBlock>
-                </div>
+                        </CooperationTextBlock>
+                    </div>
+                <CooperationTextBlock>
+                    <div className='TextBlock'>
+                        <Typography variant='title6' fontWeight='body3'>
+                            ЗРУЧНІСТЬ ДЛЯ ВАС, ТАК ЯК НАША КОМПАНІЯ ПРИКЛАЛА<br/>ЗНАЧНІ ЗУСИЛЛЯ, ЩОБ НАШІ ПАРТНЕРИ
+                            ВІДЧУВАЛИ<br/>КОМФОРТ ПРИ СПІВПРАЦІ З НАМИ.
+                            <Typography variant='title6' fontWeight='body3' color='green'> ЦЕЙ САЙТ НАДАСТЬ<br/>ВАМ ВСЮ
+                                ІНФОРМАЦІЮ, ЩО ВАС ЦІКАВИТЬ </Typography>
+                        </Typography>
+                    </div>
+                </CooperationTextBlock>
             </div>
         </div>
+</div>
     );
 }
 

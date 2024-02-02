@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
         <HeaderBlock />
-        <CooperationBlock />
-        <FlavorsBlock />
+            <CooperationBlock />
+            <FlavorsBlock />
     </div>
   );
 }

@@ -21,18 +21,22 @@
 .TextBlocks{
   display: flex;
   flex-direction: row;
-  gap: 50px;
-  align-items: center;
+  gap: 35px;
   justify-content: center;
   padding-bottom: 73.6px;
-
+  align-items: flex-start;
 
   .LeftTextBlocks{
     display:flex;
     flex-direction: column;
-    gap: 23.3px;
+    //gap: 23.3px;//
     text-align: left;
     padding-left: 209px;
+
+    .TextBlock2{
+      padding-top: 23.3px;
+      padding-bottom: 39.24px;
+    }
 
     .AdditionalInfCooperation{
       padding-left: 38.14px;
@@ -43,8 +47,13 @@
     text-align: left;
     display:flex;
     flex-direction: column;
-    gap:33.3px;
+    //gap:33.3px;//
     padding-right: 209px;
+
+    .TextBlock5{
+      padding-top: 34px;
+      padding-bottom: 30px;
+    }
   }
 }
 
