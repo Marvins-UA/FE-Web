@@ -1,0 +1,56 @@
+.CooperationHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 457px;
+
+  .MainTitleCooperation{
+    text-align: left;
+    padding-bottom: 37.5px;
+    padding-right: 7px;
+  }
+
+  .PersonIcon{
+    width: 45.3px;
+    height: 45.3px;
+    padding-right: 23px;
+  }
+}
+
+.TextBlocks{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 73.6px;
+
+
+  .LeftTextBlocks{
+    display:flex;
+    flex-direction: column;
+    gap: 23.3px;
+    text-align: left;
+    padding-left: 209px;
+
+    .AdditionalInfCooperation{
+      padding-left: 38.14px;
+    }
+  }
+
+  .RightTextBlocks{
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    gap:33.3px;
+    padding-right: 209px;
+  }
+}
+
+
+
+
+
+
+
