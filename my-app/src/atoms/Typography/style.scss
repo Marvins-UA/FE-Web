@@ -3,6 +3,7 @@
   font-family: 'Inter';
   font-style: normal;
   margin:0;
+  display: inline;
 
   &.SizeTitle1{
     font-size: 42.6px;
@@ -41,13 +42,13 @@
     font-weight: 533;
   }
   &.FontWeightBody3{
-    font-weight: 467;
+    font-weight: 700;
   }
   &.FontWeightBody4{
     font-weight: 400;
   }
   &.FontWeightBody5{
-    font-weight: 333;
+    font-weight: 500;
   }
   &.TextColorWhite{
     color:$white;
@@ -66,6 +67,9 @@
   }
   &.TextColorYellow{
     color:$yellow;
+  }
+  &.FontStyleItalic{
+    font-style: italic;
   }
 }
 
