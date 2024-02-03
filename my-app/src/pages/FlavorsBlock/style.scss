@@ -1,15 +1,11 @@
 .FlavorsBlock{
-  margin: 0; /* Заборонити зовнішні відступи боді */
-  display: grid;
-  place-items: center; /* Розміщення елементів по центру по горизонталі та вертикалі */
+  //margin: 0;
+  //display: grid;
+  //place-items: center;
 
   .FlavorsDiv{
-    width:983.28px;
+    //width:983.28px;
     justify-content: space-between;
-  }
-
-  .FlavorsHeaderDiv{
-
   }
 }
 
@@ -18,35 +14,12 @@
   flex-direction: row;
   align-items: flex-start;
   gap: 808.6px;
-  padding-bottom: 64px;
-
-
+  padding-bottom: 48px;
+  justify-content: center;
 
   .EmojiIcon{
     width: 45.3px;
     height:45.3px;
-  }
-}
-
-.FlavorsImagesBlock{
-  display:flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  //gap: 99.3px;//
-  padding-left: 12.81%;
-  padding-right: 12.81%;
-  padding-bottom: 46px;
-}
-
-.FlavorsTextBlock{
-  display: flex;
-  flex-direction: row;
-  gap: 149px;
-  align-items: center;
-  justify-content: center;
-
-  .TextBlock{
-    text-align: left;
+    //padding-left:
   }
 }
