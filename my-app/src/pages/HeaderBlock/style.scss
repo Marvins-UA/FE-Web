@@ -1,11 +1,11 @@
 .HeaderBlock{
-  padding-bottom: 88px;
   width:100vw;
 }
 .HeaderInfoBlock{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 118.6px;
 
   .HeaderText{
     display:flex;
@@ -34,11 +34,11 @@
     }
 
     .AdditionalInfTitle{
-      display:flex;
-      flex-direction: column;
-      align-items: flex-start;
+      //display:flex;
+      //flex-direction: column;
+      //align-items: flex-start;
       letter-spacing: 0.9px;
-      gap: 8.6px;
+      //gap: 8.6px;
     }
   }
   .LeaveApplicationBtn{

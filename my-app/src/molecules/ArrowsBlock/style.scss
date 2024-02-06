@@ -1,0 +1,28 @@
+.ArrowsBlock{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 184.98px;
+  justify-content: space-evenly;
+  padding-left: 294.6px;
+  padding-right: 294.6px;
+
+  .TwoArrowsBlock{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    box-sizing: border-box;
+
+    .DarkArrow{
+      width:81.26px;
+      height:auto;
+      margin-bottom: -18px;
+    }
+
+    .LightArrow{
+      width:81.26px;
+      height:auto;
+    }
+  }
+}
+

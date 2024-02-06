@@ -1,19 +1,23 @@
+.FlavorsBlock{
+  width: 100%;
+
+  .FlavorsDiv{
+    //width:983.28px;
+    justify-content: space-between;
+  }
+}
+
 .FlavorsHeader{
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: flex-start;
   gap: 808.6px;
+  padding-bottom: 48px;
+  justify-content: space-between;
 
   .EmojiIcon{
     width: 45.3px;
     height:45.3px;
+    //padding-left:
   }
-}
-
-.FlavorsImagesBlock{
-  display:flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
 }

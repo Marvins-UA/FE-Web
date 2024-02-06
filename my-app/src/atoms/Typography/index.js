@@ -26,6 +26,8 @@ function Typography (props){
             'TextColorDarkGrey': color === 'darkGrey',
             'TextColorGrey': color === 'grey',
             'TextColorLightGrey': color === 'lightGrey',
+            'TextColorTransparentGrey': color === 'transparentGrey',
+            'TextColorAddInfGrey': color === 'addInfGrey',
             'TextColorGreen': color === 'green',
             'TextColorYellow': color === 'yellow',
             'FontStyleItalic': fontStyle === 'italic',
@@ -36,7 +38,7 @@ Typography.propTypes = {
     fontWeight:PropTypes.string,
     fontStyle:PropTypes.string,
     variant: PropTypes.string,
-    color: PropTypes.oneOf(['white', 'grey', 'lightGrey', 'green', 'yellow', 'darkGrey']),
+    color: PropTypes.oneOf(['white', 'grey', 'lightGrey', 'transparentGrey', 'addInfGrey', 'green', 'yellow', 'darkGrey']),
 }
 
 Typography.defaultProps = {

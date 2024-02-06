@@ -1,14 +1,14 @@
 import './App.css';
 import HeaderBlock from "./pages/HeaderBlock";
-import CooperationBlock from "./pages/CooperationBlock";
-import FlavorsBlock from "./pages/FlavorsBlock";
+import MainContent from "./pages/MainContent";
 
 function App() {
   return (
     <div className="App">
         <HeaderBlock />
-        <CooperationBlock />
-        <FlavorsBlock />
+        <div className='MainContentDiv'>
+            <MainContent />
+        </div>
     </div>
   );
 }
