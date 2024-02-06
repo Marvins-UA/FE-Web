@@ -15,27 +15,29 @@ function ProcessText() {
                     </Typography>
                 </div>
                 <div className='ProcessTextBlock'>
-                    <Typography color='green' fontWeight='body3' variant='title5'>2. КІЛЬКІСТЬ</Typography>
-                    <Typography variant='title8' fontWeight='body3'>
-                        ОБГОВОРЕННЯ ПОТОЧНОЇ КІЛЬКОСТІ ВАШОГО ЗАМОВЛЕННЯ.<br/>
-                        ДАЛІ ЗАМОВНИК ВНОСИТЬ
-                        <Typography color='green' variant='title8' fontWeight='body3'> АВАНС (30% ВІД ЗАГАЛЬНОЇ
-                            СУМИ)</Typography>
-                        ,<br/>НА ЦІ ГРОШІ МИ ВИРОБЛЯЄМО УПАКОВКУ НА
-                        <Typography color='green' variant='title8' fontWeight='body3'> ВЕСЬ ОБСЯГ<br/>ЗАМОВЛЕННЯ.
-                        </Typography>
-                        З ГРОШЕЙ ВНЕСЕНИХ НА ВИРОБНИЦТВО<br/>
-                        УПАКОВКИ МИ НІЧОГО НЕ ОТРИМУЄМО, МИ ЗАРОБЛЯЄМО ЛИШЕ<br/>
-                        НА ВИГОТОВЛЕННІ ТА ПРОДАЖІ ЖУВАЛЬНОЇ ГУМКИ.
-                    </Typography>
-                    <div className='ProcessAdditionalInf'>
-                        <Typography variant='title8' fontWeight='body3' color='addInfGrey'>
-                            ЗАУВАЖТЕ, ЩО В ПОДАЛЬШОМУ ВАШУ ЖУВАЛЬНУ ГУМКУ ВИ<br/>
-                            МОЖЕТЕ ОТРИМУВАТИ В БУДЬ-ЯКИЙ ЗРУЧНИЙ ДЛЯ ВАС ЧАС ТА В ТІЙ<br/>
-                            КІЛЬКОСТІ, ЯКА ВАМ НЕОБХІДНА В ЗАЛЕЖНОСТІ ВІД СПОЖИВАННЯ.<br/>
-                            РЕШТА ВАШОГО ЗАМОВЛЕННЯ ЗБЕРІГАЄТЬСЯ НА НАШОМУ СКЛАДІ<br/>
-                            БЕЗ ОБМЕЖЕННЯ В ЧАСІ ДО ВАШОЇ ЗАЯВКИ ПРО ПОСТАЧАННЯ
-                        </Typography>
+                    <div className='AmountTextBlock'>
+                        <Typography color='green' fontWeight='body3' variant='title5'>2. КІЛЬКІСТЬ</Typography>
+                        <div className='AmountText'>
+                            <Typography variant='title8' fontWeight='body3'>
+                                ОБГОВОРЕННЯ ПОТОЧНОЇ КІЛЬКОСТІ ВАШОГО ЗАМОВЛЕННЯ.<br/>
+                                ДАЛІ ЗАМОВНИК ВНОСИТЬ
+                                <Typography color='green' variant='title8' fontWeight='body3'> АВАНС (30% ВІД ЗАГАЛЬНОЇ
+                                    СУМИ)</Typography>
+                                ,<br/>НА ЦІ ГРОШІ МИ ВИРОБЛЯЄМО УПАКОВКУ НА
+                                <Typography color='green' variant='title8' fontWeight='body3'> ВЕСЬ ОБСЯГ<br/>ЗАМОВЛЕННЯ.
+                                </Typography>
+                                З ГРОШЕЙ ВНЕСЕНИХ НА ВИРОБНИЦТВО<br/>
+                                УПАКОВКИ МИ НІЧОГО НЕ ОТРИМУЄМО, МИ ЗАРОБЛЯЄМО ЛИШЕ<br/>
+                                НА ВИГОТОВЛЕННІ ТА ПРОДАЖІ ЖУВАЛЬНОЇ ГУМКИ.
+                            </Typography>
+                                <Typography variant='title8' fontWeight='body3' color='addInfGrey'>
+                                    ЗАУВАЖТЕ, ЩО В ПОДАЛЬШОМУ ВАШУ ЖУВАЛЬНУ ГУМКУ ВИ<br/>
+                                    МОЖЕТЕ ОТРИМУВАТИ В БУДЬ-ЯКИЙ ЗРУЧНИЙ ДЛЯ ВАС ЧАС ТА В ТІЙ<br/>
+                                    КІЛЬКОСТІ, ЯКА ВАМ НЕОБХІДНА В ЗАЛЕЖНОСТІ ВІД СПОЖИВАННЯ.<br/>
+                                    РЕШТА ВАШОГО ЗАМОВЛЕННЯ ЗБЕРІГАЄТЬСЯ НА НАШОМУ СКЛАДІ<br/>
+                                    БЕЗ ОБМЕЖЕННЯ В ЧАСІ ДО ВАШОЇ ЗАЯВКИ ПРО ПОСТАЧАННЯ
+                                </Typography>
+                        </div>
                     </div>
                 </div>
                 <div className='ProcessTextBlock'>
@@ -66,15 +68,17 @@ function ProcessText() {
                     </Typography>
                 </div>
                 <div className='ProcessTextBlock'>
-                    <Typography color='green' fontWeight='body3' variant='title5'>5. ОТРИМАННЯ</Typography>
-                    <Typography variant='title8' fontWeight='body3'>
-                        ПІСЛЯ ТОГО, ЯК ВАШЕ ЗАМОВЛЕННЯ БУЛО ВИГОТОВЛЕНО ТА<br/>
-                        УКОМПЛЕКТОВАНО, ВИ МОЖЕТЕ ЗАМОВЛЯТИ ЙОГО ПЕВНИМИ<br/>
-                        ЧАСТИНАМИ І ЯК РАНІШЕ ВЖЕ ЗАЗНАЧАЛОСЯ ОТРИМАТИ ЙОГО У<br/>
-                        <Typography color='green' variant='title8' fontWeight='body3'> БУДЬ-ЯКИЙ ЗРУЧНИЙ ДЛЯ ВАС ЧАС ТА
-                            У
-                            БУДЬ-ЯКОМУ МІСЦІ.</Typography>
-                    </Typography>
+                    <div className='ReceivingTextBlock'>
+                        <Typography color='green' fontWeight='body3' variant='title5'>5. ОТРИМАННЯ</Typography>
+                        <Typography variant='title8' fontWeight='body3'>
+                            ПІСЛЯ ТОГО, ЯК ВАШЕ ЗАМОВЛЕННЯ БУЛО ВИГОТОВЛЕНО ТА<br/>
+                            УКОМПЛЕКТОВАНО, ВИ МОЖЕТЕ ЗАМОВЛЯТИ ЙОГО ПЕВНИМИ<br/>
+                            ЧАСТИНАМИ І ЯК РАНІШЕ ВЖЕ ЗАЗНАЧАЛОСЯ ОТРИМАТИ ЙОГО У<br/>
+                            <Typography color='green' variant='title8' fontWeight='body3'> БУДЬ-ЯКИЙ ЗРУЧНИЙ ДЛЯ ВАС ЧАС ТА
+                                У
+                                БУДЬ-ЯКОМУ МІСЦІ.</Typography>
+                        </Typography>
+                    </div>
                 </div>
                 <div className='ProcessTextBlock'>
                     <Typography color='green' fontWeight='body3' variant='title5'>6. РЕАЛІЗАЦІЯ</Typography>
