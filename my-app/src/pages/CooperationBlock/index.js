@@ -62,8 +62,9 @@ function CooperationBlock() {
                     <div className='TextBlock5'>
                         <CooperationTextBlock>
                             <Typography variant='title6' fontWeight='body3'>
-                                <Typography variant='title6' fontWeight='body3' color='green'> НАТИВНА РЕКЛАМА</Typography>
-                                , ЩО НАГАДАЄ КЛІЄНТУ ПРО ВАС В СИТУАЦІЇ<br/>КОЛИ ВІН ПОКЛАДЕ ГУМКУ ДО КИШЕНІ І ДІСТАНЕ ЇЇ ЧЕРЕЗ<br/>ДЕЯКИЙ ЧАС
+                                <Typography variant='title6' fontWeight='body3' color='green'> НАТИВНА
+                                    РЕКЛАМА</Typography>
+                                , ЩО НАГАДАЄ КЛІЄНТУ ПРО ВАС В<br/>СИТУАЦІЇКОЛИ ВІН ПОКЛАДЕ ГУМКУ ДО КИШЕНІ І<br/>ДІСТАНЕ ЇЇ ЧЕРЕЗДЕЯКИЙ ЧАС
                             </Typography>
                         </CooperationTextBlock>
                     </div>

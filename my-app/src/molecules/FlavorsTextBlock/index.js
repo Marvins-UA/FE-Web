@@ -15,7 +15,7 @@ function FlavorsTextBlock() {
         <Typography variant='title5' fontWeight='body3' color='green'> цукрозамінник</Typography>
         <Typography variant='title5' fontWeight='body3'>.<br/>В майбутньому кількість смаків буде зростати.</Typography>
     </div>
-    <div className='TextBlock'>
+    <div className='TextBlock2'>
         <Typography variant='title5' fontWeight='body3'>Слід також зазначити, що</Typography>
         <Typography variant='title5' fontWeight='body3' color='green'> всі смаки </Typography>
         <Typography variant='title5' fontWeight='body3'>мають<br/></Typography>

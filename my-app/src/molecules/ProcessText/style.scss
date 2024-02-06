@@ -1,0 +1,15 @@
+.ProcessText{
+  display:flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: left;
+  padding-top: 81px;
+
+  .RightProcessTextBlocks{
+  }
+  .ProcessTextBlock{
+    display:flex;
+    flex-direction: column;
+    gap: 12.6px;
+  }
+}

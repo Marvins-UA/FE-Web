@@ -19,7 +19,7 @@ function HeaderBlock() {
                         </div>
                     </div>
                     <div className='AdditionalInfTitle'>
-                        <Typography fontWeight='body2' variant='title7' color='lightGrey'>Єдиний в Україні виробник жувальної гумки</Typography>
+                        <Typography fontWeight='body2' variant='title7' color='transparentGrey'>Єдиний в Україні виробник жувальної гумки з 2015 року</Typography>
                     </div>
                 </div>
                 <div className='LeaveApplicationBtn'>

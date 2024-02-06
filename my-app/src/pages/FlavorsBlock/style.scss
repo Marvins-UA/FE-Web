@@ -1,7 +1,5 @@
 .FlavorsBlock{
-  //margin: 0;
-  //display: grid;
-  //place-items: center;
+  width: 100%;
 
   .FlavorsDiv{
     //width:983.28px;
@@ -15,7 +13,7 @@
   align-items: flex-start;
   gap: 808.6px;
   padding-bottom: 48px;
-  justify-content: center;
+  justify-content: space-between;
 
   .EmojiIcon{
     width: 45.3px;

@@ -3,9 +3,14 @@
   flex-direction: row;
   gap: 149px;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-between;
 
   .TextBlock{
     text-align: left;
+  }
+
+  .TextBlock2{
+    text-align: left;
+    padding-right: 58.6px;
   }
 }
