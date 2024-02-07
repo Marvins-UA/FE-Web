@@ -1,0 +1,13 @@
+.AdvantagesTextBlocks{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 21.3px;
+
+  .AdvantagesTextBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 8.6px;
+  }
+}

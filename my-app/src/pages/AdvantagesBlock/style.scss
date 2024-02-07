@@ -1,0 +1,20 @@
+.AdvantagesBlock{
+  padding-right: 76px;
+  padding-left: 68.6px;
+  padding-bottom: 110.6px;
+
+  .AdvantagesContent{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 122.6px;
+    padding-top: 51.3px;
+
+    .ISOImg{
+      width: 301.3px;
+      height: 306px;
+    }
+  }
+}
+

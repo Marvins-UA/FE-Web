@@ -1,0 +1,25 @@
+@import '../../colors';
+
+.PartnersBoard{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  background-color: $black;
+  width: 654.23px;
+  height: 416.4px;
+  border: $white 9.3px solid;
+  border-radius: 112px;
+
+  .PartnersFirstLine{
+
+    .NikasLogo{
+      width:62.7px;
+      height:76.56px;
+    }
+    .DubrovskiyLogo{
+      width:75.75px;
+      height:81.2px;
+    }
+  }
+}
