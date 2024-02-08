@@ -4,6 +4,7 @@ import MainContent from "./pages/MainContent";
 import PackagingLine from "./molecules/PackagingLineBlock";
 import AdvantagesBlock from "./pages/AdvantagesBlock";
 import PartnersBlock from "./pages/PartnersBlock";
+import ContactsBlock from "./molecules/ContactsBlock";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <div className='MainContent'>
                 <AdvantagesBlock />
                 <PartnersBlock />
+                <ContactsBlock />
             </div>
         </div>
     </div>
