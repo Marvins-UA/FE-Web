@@ -1,11 +1,19 @@
 @import '../../colors';
 
 .AppButton{
-  width: 213px;
-  height: 58px;
   flex-shrink: 0;
   border-radius: 35.6px;
   border:none;
+
+  &.SizeBig{
+    width: 213px;
+    height: 58px;
+  }
+
+  &.SizeSmall{
+    width: 174.4px;
+    height: 37.7px;
+  }
 
   &.BackgroundColorBlue{
     background: $blueGradient;

@@ -3,12 +3,14 @@ import PropTypes from "prop-types";
 import './style.scss';
 import cn from 'classnames';
 function Button (props){
-    const {backgrndColor, children} = props;
+    const {backgrndColor, size, children} = props;
 
     return (
         <button className={cn('AppButton', {
             'BackgroundColorBlue': backgrndColor === 'blue',
             'BackgroundColorGreen': backgrndColor === 'green',
+            'SizeBig': size === 'big',
+            'SizeSmall': size === 'small',
         })}>
             {children}
         </button>
@@ -16,7 +18,9 @@ function Button (props){
 }
 
 Button.propTypes = {
-    backgrndColor:PropTypes.oneOf(['blue', 'green'])}
+    backgrndColor:PropTypes.oneOf(['blue', 'green']),
+    size:PropTypes.oneOf(['big', 'small'])
+}
 
 Button.defaultProps = {
     backgrndColor:'blue',

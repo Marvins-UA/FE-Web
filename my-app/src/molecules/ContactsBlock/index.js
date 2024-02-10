@@ -4,7 +4,6 @@ import PhoneIcon from "../../atoms/Icons/PhoneIcon.png"
 import MailIcon from "../../atoms/Icons/MailIcon.png"
 import InstagramIcon from "../../atoms/Icons/InstagramIcon.png"
 import FacebookIcon from "../../atoms/Icons/FacebookIcon.png"
-import WatsAppIcon from "../../atoms/Icons/WatsAppIcon.png"
 import TelegramIcon from "../../atoms/Icons/TelegramIcon.png"
 
 function ContactsBlock() {
@@ -31,7 +30,6 @@ function ContactsBlock() {
             <div className='SocialMediaDiv'>
                 <img src={InstagramIcon}/>
                 <img src={FacebookIcon}/>
-                <img src={WatsAppIcon}/>
                 <img src={TelegramIcon}/>
             </div>
         </div>
