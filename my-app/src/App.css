@@ -2,6 +2,7 @@
   text-align: center;
   font-family: 'Inter', sans-serif;
   background: linear-gradient(219deg, #A41D1D -4.77%, #000 -4.75%, #124014 139.91%);
+  position: relative;
 }
 
 .MainContentDiv{

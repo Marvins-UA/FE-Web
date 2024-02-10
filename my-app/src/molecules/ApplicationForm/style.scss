@@ -1,0 +1,41 @@
+@import '../../colors';
+
+.ApplicationForm{
+  display:flex;
+  flex-direction: column;
+  background-color: $applicationFormBackground;
+  width: 100%;
+  position: absolute;
+  top: 0;
+
+  .ApplicationFormHeader{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 73.3px;
+
+    .LogoMarvins{
+      width: 48px;
+      height: 51.3px;
+    }
+
+    .CrossIcon{
+      width: 31.9px;
+      height: 32px;
+      position: absolute;
+      right: 252.7px;
+      padding-top: 32px;
+    }
+  }
+
+  .InputsDiv{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    .InputBlock{
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}

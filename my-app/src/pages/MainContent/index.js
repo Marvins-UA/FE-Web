@@ -2,8 +2,6 @@ import './style.scss';
 import CooperationBlock from "../CooperationBlock";
 import FlavorsBlock from "../FlavorsBlock";
 import ProcessBlock from "../ProcessBlock";
-import PackagingLine from "../../molecules/PackagingLineBlock";
-import AdvantagesBlock from "../AdvantagesBlock";
 
 function MainContent() {
     return (

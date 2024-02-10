@@ -22,6 +22,7 @@ function Typography (props){
             'FontWeightBody3': fontWeight === 'body3',
             'FontWeightBody4': fontWeight === 'body4',
             'FontWeightBody5': fontWeight === 'body5',
+            'FontWeightBody6': fontWeight === 'body6',
             'TextColorWhite': color === 'white',
             'TextColorDarkGrey': color === 'darkGrey',
             'TextColorGrey': color === 'grey',

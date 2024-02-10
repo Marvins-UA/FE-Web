@@ -1,4 +1,5 @@
 @import '../../colors';
+
 .AppTypography{
   font-family: 'Inter';
   font-style: normal;
@@ -52,6 +53,9 @@
   }
   &.FontWeightBody5{
     font-weight: 500;
+  }
+  &.FontWeightBody6{
+    font-weight: 400;
   }
   &.TextColorWhite{
     color:$white;

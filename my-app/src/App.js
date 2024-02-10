@@ -5,11 +5,13 @@ import PackagingLine from "./molecules/PackagingLineBlock";
 import AdvantagesBlock from "./pages/AdvantagesBlock";
 import PartnersBlock from "./pages/PartnersBlock";
 import FooterBlock from "./pages/FooterBlock";
+import ApplicationForm from "./molecules/ApplicationForm";
 
 function App() {
   return (
     <div className="App">
         <HeaderBlock />
+        <ApplicationForm />
         <div className='MainContentDiv'>
             <MainContent />
         </div>

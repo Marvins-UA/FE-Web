@@ -22,8 +22,8 @@ function HeaderBlock() {
                         <Typography fontWeight='body2' variant='title7' color='transparentGrey'>Єдиний в Україні виробник жувальної гумки з 2015 року</Typography>
                     </div>
                 </div>
-                <div className='LeaveApplicationBtn'>e='big'>
-                    <Button siz
+                <div className='LeaveApplicationBtn'>
+                    <Button size='big'>
                         <Typography variant='title5' fontWeight='body3'>ЗАЛИШИТИ ЗАЯВКУ</Typography>
                     </Button>
                     <Typography variant='title7' fontWeight='body3'>Або задати будь-які запитання</Typography>
