@@ -1,12 +1,27 @@
 @import '../../colors';
 
-.ApplicationForm{
-  display:flex;
-  flex-direction: column;
+.Overlay{
+  transform: scale(0);
+  display: grid;
+  place-items: center;
   background-color: $applicationFormBackground;
   width: 100%;
   position: absolute;
   top: 0;
+}
+
+.OverlayActive{
+  transform: scale(1);
+  display: grid;
+  place-items: center;
+  background-color: $applicationFormBackground;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.ApplicationForm{
+
 
   .ApplicationFormHeader{
     display:flex;
@@ -17,6 +32,7 @@
     .LogoMarvins{
       width: 48px;
       height: 51.3px;
+      padding-bottom: 112.6px;
     }
 
     .CrossIcon{
@@ -28,14 +44,95 @@
     }
   }
 
+  .ApplicationFormBlock{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 103.6px;
+    gap: 30.6px;
+
+    .InputLabels{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 67px;
+      padding-top: 4px;
+    }
+  }
+
   .InputsDiv{
     display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    gap: 63.3px;
+
+    Input::placeholder{
+      color: $applicationInputPlaceholder;
+      font-size: 16px;
+      font-family: 'Inter', sans-serif;
+      font-style: italic;
+      font-weight: 400;
+    }
 
     .InputBlock{
       display: flex;
       flex-direction: row;
+      align-items: center;
+
+      .ApplicationFormInput{
+        border: none;
+        border-bottom: 2.6px solid $white;
+        //padding: 4.5px;
+        background: none;
+        outline: none;
+        color: $white;
+        padding-left: 10.6px;
+        width: calc(100% - 10.6px);
+      }
+
+      .NameInputContainer{
+        width: 400px;
+      }
+
+      .CityInputContainer{
+        width: 400px;
+      }
+    }
+
+    .NameInput{
+      gap: 76.6px;
+    }
+
+    .PhoneInput{
+      gap: 30.6px;
+
+      .PhoneInputContainer{
+        align-items: center;
+        position: relative;
+        display: inline-block;
+        width: 400px;
+
+        .PhoneType{
+          position: absolute;
+          padding-left: 10.6px;
+        }
+
+        .ApplicationFormInputPhone{
+          width: calc(100% - 62px);
+          padding-left: 62px;
+        }
+      }
+    }
+
+    .CityInput{
+      gap: 56.6px;
     }
   }
+
+  .SendButtonDiv{
+    margin-top: 40.6px;
+    margin-bottom: 174.6px;
+    position: relative;
+  }
+
 }

@@ -4,7 +4,7 @@ import Typography from "../../atoms/Typography";
 
 function PartnersBlock() {
     return (
-        <div className="PartnersBlock">
+        <div className="PartnersBlock" id='partnersSection'>
             <Typography variant='title3' fontWeight='body1'>НАШІ ПАРТНЕРИ</Typography>
             <PartnersBoard />
         </div>

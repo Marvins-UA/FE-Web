@@ -8,7 +8,8 @@ import FooterBlock from "./pages/FooterBlock";
 import ApplicationForm from "./molecules/ApplicationForm";
 
 function App() {
-  return (
+
+    return (
     <div className="App">
         <HeaderBlock />
         <ApplicationForm />

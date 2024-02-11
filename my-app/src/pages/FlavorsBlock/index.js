@@ -6,7 +6,7 @@ import FlavorsTextBlock from "../../molecules/FlavorsTextBlock";
 
 function FlavorsBlock() {
     return (
-        <div className="FlavorsBlock">
+        <div className="FlavorsBlock" id='flavorsSection'>
             <div className='FlavorsDiv'>
             <div className='FlavorsHeaderDiv'>
                 <div className='FlavorsHeader'>

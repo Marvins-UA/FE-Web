@@ -8,7 +8,6 @@
   align-items: center;
   justify-content: center;
   gap:43.3px;
-  position: sticky;
 
   .MenuBlock{
     display:flex;
@@ -17,6 +16,10 @@
     gap: 31px;
     padding-top: 23.3px;
     padding-bottom: 28.6px;
+
+    A{
+      text-decoration: none;
+    }
   }
 
   .LogoMarvins{

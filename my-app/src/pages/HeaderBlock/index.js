@@ -3,11 +3,17 @@ import './style.scss';
 import Typography from "../../atoms/Typography";
 import Button from "../../atoms/Button";
 import ArrowsBlock from "../../molecules/ArrowsBlock";
+import {useContext, useState} from "react";
+import ApplicationForm from "../../molecules/ApplicationForm";
 
 function HeaderBlock() {
+    const [formActive, setFormActive] = useState(false);
+
+
     return (
         <div className="HeaderBlock">
-           <NavMenu/>
+            <ApplicationForm activeForm={formActive} setActiveForm={setFormActive}/>
+            <NavMenu/>
             <div className='HeaderInfoBlock'>
                 <div className='HeaderText'>
                     <div className='MainTitle'>
@@ -23,7 +29,7 @@ function HeaderBlock() {
                     </div>
                 </div>
                 <div className='LeaveApplicationBtn'>
-                    <Button size='big'>
+                    <Button size='big' onClick={() => setFormActive(true)}>
                         <Typography variant='title5' fontWeight='body3'>ЗАЛИШИТИ ЗАЯВКУ</Typography>
                     </Button>
                     <Typography variant='title7' fontWeight='body3'>Або задати будь-які запитання</Typography>

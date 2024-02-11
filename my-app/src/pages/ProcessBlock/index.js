@@ -4,7 +4,7 @@ import ProcessHeader from "../../molecules/ProcessBlockHeader";
 
 function ProcessBlock() {
     return (
-        <div className="ProcessBlock">
+        <div className="ProcessBlock" id='processSection'>
             <ProcessHeader />
             <ProcessText />
         </div>

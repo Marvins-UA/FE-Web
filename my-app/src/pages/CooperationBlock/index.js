@@ -5,7 +5,7 @@ import './style.scss';
 
 function CooperationBlock() {
     return (
-        <div className="CooperationBlock">
+        <div className="CooperationBlock" id='cooperationSection'>
             <div className='CooperationHeader'>
                 <div className='MainTitleCooperation'>
                     <Typography fontWeight='body3' variant='title3'>СПІВПРАЦЯ З MARVINS™ ЦЕ НЕ <br/>ПРОСТО  ЖУВАЛЬНА ГУМКА З ВАШИМ <br/>ВЛАСНИМ ДИЗАЙНОМ, ЦЕ:</Typography>

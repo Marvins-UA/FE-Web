@@ -4,7 +4,7 @@ import BecomePartnerForm from "../../molecules/BecomePartnerForm";
 
 function FooterBlock() {
     return (
-        <div className="FooterBlock">
+        <div className="FooterBlock" id='footerSection'>
             <BecomePartnerForm />
             <ContactsBlock />
         </div>
