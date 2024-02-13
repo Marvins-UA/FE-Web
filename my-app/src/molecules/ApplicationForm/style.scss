@@ -82,10 +82,12 @@
       .ApplicationFormInput{
         border: none;
         border-bottom: 2.6px solid $white;
-        //padding: 4.5px;
         background: none;
         outline: none;
         color: $white;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
         padding-left: 10.6px;
         width: calc(100% - 10.6px);
       }
@@ -133,6 +135,14 @@
     margin-top: 40.6px;
     margin-bottom: 174.6px;
     position: relative;
+  }
+
+  .ErrorMessage{
+    position: absolute;
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+    margin-left: 116px;
   }
 
 }
