@@ -17,11 +17,11 @@ function PartnersBoard() {
             <div className='PartnersFirstLine'>
                 <img src={NikasLogo} className='NikasLogo'/>
                 <img src={DubrovskiyLogo} className='DubrovskiyLogo'/>
-                <img src={ZdybankaLogo} className='ZdybankaLogo'/>
                 <img src={FlintLogo} className='FlintLogo'/>
+                <img src={ZdybankaLogo} className='ZdybankaLogo'/>
             </div>
             <div className='PartnersSecondLine'>
-                <img src={MorimotoLogo} className='MorimotoLogo'/>
+            <img src={MorimotoLogo} className='MorimotoLogo'/>
                 <img src={SMILEFOODLogo} className='SMILEFOODLogo'/>
                 <img src={KASKADLogo} className='KASKADLogo'/>
                 <img src={OneFaceLogo} className='OneFaceLogo'/>

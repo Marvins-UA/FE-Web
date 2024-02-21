@@ -12,6 +12,7 @@ function Button (props){
             'SizeBig': size === 'big',
             'SizeMedium': size === 'medium',
             'SizeSmall': size === 'small',
+            'SizeMobile': size === 'mobile',
         })}
         {...baseProps}>
             {children}
@@ -21,7 +22,7 @@ function Button (props){
 
 Button.propTypes = {
     backgrndColor:PropTypes.oneOf(['blue', 'green']),
-    size:PropTypes.oneOf(['big', 'medium', 'small'])
+    size:PropTypes.oneOf(['big', 'medium', 'small', 'mobile'])
 }
 
 Button.defaultProps = {

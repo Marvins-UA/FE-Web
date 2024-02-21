@@ -50,3 +50,32 @@
     }
   }
 }
+
+@media screen and (max-width: 1290px) {
+  .ContactsBlock{
+    gap: 51px;
+
+    .ContactDiv{
+      gap: 8px;
+
+      .PhoneContactTitle{
+        gap: 10.28px;
+      }
+      .MailContactTitle{
+        gap: 6.82px;
+        padding: 0;
+      }
+    }
+
+    .SocialMediaDiv{
+      gap: 32px;
+      flex-direction: row-reverse;
+      padding-top: 11px;
+
+      img{
+        width: 50.26px;
+        height: 50.26px;
+      }
+    }
+  }
+}

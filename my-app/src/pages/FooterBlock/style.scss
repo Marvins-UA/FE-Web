@@ -5,3 +5,12 @@
   padding-top: 155.5px;
   padding-bottom: 80px;
 }
+
+@media screen and (max-width: 1290px) {
+  .FooterBlock{
+    flex-direction: column;
+    align-items: center;
+    gap: 62.57px;
+    padding-top: 61.52px;
+  }
+}

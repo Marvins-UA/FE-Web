@@ -1,9 +1,9 @@
 import React from "react";
 import {useState, useCallback, memo} from "react";
-import './style.scss';
 import Typography from "../../atoms/Typography";
 import Button from "../../atoms/Button";
 import axios from 'axios';
+import './style.scss';
 
 const initialFormData = {
     username: '',
@@ -58,6 +58,10 @@ function BecomePartnerForm() {
                 <Typography variant='title4' fontWeight='body1'>СТАТИ ПАРТНЕРОМ</Typography>
                 <Typography color='grey' variant='title7' fontWeight='body4'>або задати будь-які запитання</Typography>
             </div>
+            <div className='BecomePartnerTitleMobile'>
+                <Typography variant='title5' fontWeight='body1'>СТАТИ ПАРТНЕРОМ</Typography>
+                <Typography color='grey' variant='title14' fontWeight='body3'>або задати будь-які запитання</Typography>
+            </div>
             <form className='PartnerFormBlock' onSubmit={handleSubmit}>
                 <div className='InputsDiv'>
                     <div className='InputBlock'>
@@ -101,6 +105,11 @@ function BecomePartnerForm() {
                 <div className="SendButtonDiv">
                     <Button onSubmit={handleSubmit} backgrndColor='blue' size="small">
                         <Typography variant='title4' fontWeight='body1'>НАДІСЛАТИ</Typography>
+                    </Button>
+                </div>
+                <div className="SendButtonDivMobile">
+                    <Button onSubmit={handleSubmit} backgrndColor='blue' size="mobile">
+                        <Typography variant='title16' fontWeight='body1'>НАДІСЛАТИ</Typography>
                     </Button>
                 </div>
             </form>

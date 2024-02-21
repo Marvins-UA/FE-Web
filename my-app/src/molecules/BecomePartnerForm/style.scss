@@ -7,7 +7,7 @@
   border-radius: 47.3px;
   border: $white 2.6px solid;
 
-  .BecomePartnerTitle{
+  .BecomePartnerTitle, .BecomePartnerTitleMobile{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,6 +48,52 @@
       margin-top: 122px;
     }
   }
+}
 
+@media screen and (max-width: 1290px) {
+  .BecomePartnerForm{
+    width: 250px;
+    height: 275px;
+    border-radius: 39px;
+    border: $white 2px solid;
+    .BecomePartnerTitle{
+      display:none;
+    }
+    .BecomePartnerTitleMobile{
+      padding-top: 21px;
+      gap: 6px;
+      padding-bottom: 20px;
+    }
 
+    .PartnerFormBlock{
+      .ErrorMessage{
+        margin-left: 46px;
+      }
+      .InputsDiv{
+        gap: 20px;
+
+        .PartnerFormInput{
+          width: 192.27px;
+          font-size: 15px;
+        }
+      }
+      .SendButtonDivMobile{
+        margin-top: 21.7px;
+      }
+      .SendButtonDiv{
+        display:none;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1291px) {
+  .BecomePartnerForm{
+    .BecomePartnerTitleMobile{
+      display:none;
+    }
+    .SendButtonDivMobile{
+      display:none;
+    }
+  }
 }
