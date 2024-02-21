@@ -21,8 +21,6 @@
 }
 
 .ApplicationForm{
-
-
   .ApplicationFormHeader{
     display:flex;
     justify-content: center;
@@ -144,5 +142,13 @@
     margin-top: 10px;
     margin-left: 116px;
   }
+}
 
+@media screen and (max-width: 1290px) {
+  .Overlay{
+    display:none;
+  }
+  .OverlayActive{
+    display:none;
+  }
 }

@@ -1,4 +1,4 @@
-.AdvantagesTextBlocks{
+.AdvantagesTextBlocks, .AdvantagesTextBlocksMobile{
   display:flex;
   flex-direction: column;
   align-items: flex-start;
@@ -14,6 +14,12 @@
 
 @media screen and (max-width: 1290px) {
   .AdvantagesTextBlocks{
+    display: none;
+  }
+  .AdvantagesTextBlocksMobile{
+    align-items: center;
+    gap: 50px;
+
     .MobileAdvantageBlock{
       display: flex;
       flex-direction: column;
@@ -31,12 +37,7 @@
 }
 
 @media screen and (min-width: 1291px) {
-  .AdvantagesTextBlocks{
-    .MobileAdvantageBlock{
-
-      .MobileDividingLine{
-        display:none;
-      }
-    }
+  .AdvantagesTextBlocksMobile{
+    display: none;
   }
 }

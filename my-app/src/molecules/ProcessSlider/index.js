@@ -23,10 +23,8 @@ const ProcessSlider = () => {
                 <div>
                     <div className='Slide'>
                         <div className='SlideText'>
-                            <Typography fontWeight='body3' variant='title14'>Залиште заявку на сайті, далі після
-                                обговорення<br/>
-                                <Typography fontWeight='body3' variant='title14' color='green'>всіх важливих для вас
-                                    питань </Typography>
+                            <Typography fontWeight='body3' variant='title14'>Залиште заявку на сайті, далі після обговорення<br/>
+                                <Typography fontWeight='body3' variant='title14' color='green'>всіх важливих для вас питань </Typography>
                                 ми з вами<br/>
                                 заключаємо договір з обговоренням умов для<br/>
                                 подальшої співпраці.
