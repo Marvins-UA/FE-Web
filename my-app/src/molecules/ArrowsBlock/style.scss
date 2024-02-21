@@ -9,7 +9,6 @@
     display:flex;
     flex-direction: column;
     align-content: center;
-    //position: relative;
     box-sizing: border-box;
 
     .DarkArrow{
@@ -25,3 +24,8 @@
   }
 }
 
+@media screen and (max-width: 1290px) {
+  .ArrowsBlock {
+    display:none;
+  }
+}

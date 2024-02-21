@@ -29,3 +29,9 @@
     padding-bottom: 14.6px;
   }
 }
+
+@media screen and (max-width: 1290px) {
+  .NavMenu{
+    display: none;
+  }
+}

@@ -39,11 +39,27 @@
   &.SizeTitle11{
     font-size: 16.6px;
   }
+  &.SizeTitle12{
+    font-size: 12px;
+  }
+  &.SizeTitle13{
+    font-size: 18px;
+  }
+  &.SizeTitle14{
+    font-size: 14px;
+  }
+  &.SizeTitle15{
+    font-size: 15px;
+  }
+  &.SizeTitle16{
+    font-size: 20px;
+  }
+
   &.FontWeightBody1{
     font-weight: 900;
   }
   &.FontWeightBody2{
-    font-weight: 533;
+    font-weight: 800;
   }
   &.FontWeightBody3{
     font-weight: 700;
@@ -56,6 +72,9 @@
   }
   &.FontWeightBody6{
     font-weight: 400;
+  }
+  &.FontWeightBody7{
+    font-weight: 300;
   }
   &.TextColorWhite{
     color:$white;

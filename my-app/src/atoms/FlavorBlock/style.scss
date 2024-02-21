@@ -9,3 +9,27 @@
     height: 157.3px;
   }
 }
+
+@media screen and (max-width: 1290px) {
+  .FlavorBlock{
+    flex-direction: row;
+    gap: 17px;
+
+    .FlavorTitle{
+      display:none;
+    }
+
+    .FlavorImg{
+      width: 75px;
+      height: 75px;
+    }
+  }
+}
+
+@media screen and (min-width: 1291px) {
+  .FlavorBlock{
+    .FlavorTitleMobile{
+      display:none;
+    }
+  }
+}

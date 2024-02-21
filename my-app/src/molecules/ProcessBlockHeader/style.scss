@@ -10,3 +10,24 @@
     height: 47.3px;
   }
 }
+
+@media screen and (max-width: 1290px) {
+  .ProcessHeader {
+    padding-top: 22px;
+    padding-bottom: 22px;
+
+    .ProcessIcon{
+      display: none;
+    }
+
+    .ProcessHeaderTitle{
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 1291px) {
+    .ProcessHeaderTitleMobile{
+      display: none;
+    }
+}

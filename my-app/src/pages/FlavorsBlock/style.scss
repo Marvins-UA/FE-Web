@@ -22,3 +22,56 @@
     //padding-left:
   }
 }
+
+@media screen and (max-width: 1290px) {
+  .FlavorsBlock{
+    padding-top: 26px;
+
+    .FlavorsDiv{
+
+      .FlavorsHeaderDiv{
+        display: none;
+      }
+
+      .FlavorsContentMobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 77px;
+      }
+    }
+
+    .FlavorsHeader{
+      padding-bottom: 35px;
+
+      .MainTitleFlavor{
+        display:none;
+      }
+
+      .MainTitleFlavorMobile{
+         display:flex;
+         justify-content: center;
+       }
+    }
+
+    .EmojiIcon{
+      display:none;
+    }
+
+    .FlavorsDividingBlock{
+      padding-right: 27px;
+    }
+
+  }
+}
+
+@media screen and (min-width: 1291px) {
+  .MainTitleFlavorMobile{
+    display:none;
+  }
+
+  .FlavorsDividingBlock{
+    display:none;
+  }
+}
+

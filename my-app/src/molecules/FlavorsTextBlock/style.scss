@@ -1,3 +1,5 @@
+@import '../../colors';
+
 .FlavorsTextBlock{
   display: flex;
   flex-direction: row;
@@ -12,5 +14,25 @@
   .TextBlock2{
     text-align: left;
     padding-right: 58.6px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .FlavorsTextBlock{
+    height: 130px;
+    align-items: center;
+    background-color: $sliderBackground;
+
+    .TextBlock{
+      display:none;
+    }
+
+    .TextBlock2{
+      width: 100%;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+     }
   }
 }

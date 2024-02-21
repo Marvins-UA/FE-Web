@@ -16,14 +16,16 @@ function FlavorsTextBlock() {
         <Typography variant='title5' fontWeight='body3'>.<br/>В майбутньому кількість смаків буде зростати.</Typography>
     </div>
     <div className='TextBlock2'>
-        <Typography variant='title5' fontWeight='body3'>Слід також зазначити, що</Typography>
-        <Typography variant='title5' fontWeight='body3' color='green'> всі смаки </Typography>
-        <Typography variant='title5' fontWeight='body3'>мають<br/></Typography>
-        <Typography variant='title5' fontWeight='body3' color='green'> однакову ціну </Typography>
-        <Typography variant='title5' fontWeight='body3'> та </Typography>
-        <Typography variant='title5' fontWeight='body3' color='green'>однаковий час на<br/>виробництво</Typography>
-        <Typography variant='title5' fontWeight='body3'>. Ціна різниться в залежності від<br/>компоненту, що виступає у ролі<br/></Typography>
-        <Typography variant='title5' fontWeight='body3' color='green'>підсолоджувача (цукор або цукрозамінник)</Typography>
+        <div>
+            <Typography variant='title5' fontWeight='body3'>Слід також зазначити, що</Typography>
+            <Typography variant='title5' fontWeight='body3' color='green'> всі смаки </Typography>
+            <Typography variant='title5' fontWeight='body3'>мають<br/></Typography>
+            <Typography variant='title5' fontWeight='body3' color='green'> однакову ціну </Typography>
+            <Typography variant='title5' fontWeight='body3'> та </Typography>
+            <Typography variant='title5' fontWeight='body3' color='green'>однаковий час на<br/>виробництво</Typography>
+            <Typography variant='title5' fontWeight='body3'>. Ціна різниться в залежності від<br/>компоненту, що виступає у ролі<br/></Typography>
+            <Typography variant='title5' fontWeight='body3' color='green'>підсолоджувача (цукор або цукрозамінник)</Typography>
+        </div>
     </div>
 </div>
     );

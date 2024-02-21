@@ -6,7 +6,12 @@ function ProcessHeader() {
     return (
         <div className="ProcessHeader">
            <ProcessIcon className='ProcessIcon' />
-           <Typography variant='title3' fontWeight='body3'>ПРОЦЕС</Typography>
+            <div className='ProcessHeaderTitle'>
+                <Typography variant='title3' fontWeight='body3'>ПРОЦЕС</Typography>
+            </div>
+            <div className='ProcessHeaderTitleMobile'>
+                <Typography variant='title16' fontWeight='body3'>ПРОЦЕС</Typography>
+            </div>
         </div>
     );
 }
