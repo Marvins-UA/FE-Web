@@ -35,10 +35,12 @@ const ProcessSlider = () => {
                                 <img src={DarkArrow} className='DarkArrowMobile'/>
                                 <img src={LightArrow} className='LightArrowMobile'/>
                             </div>
-                            <div className='SlideNumber'>
+                            <div className='SlideNumberWithArrows'>
                                 <Typography fontWeight='body3' variant='title15' color='green'>1/6</Typography>
-                                <Typography fontWeight='body2' variant='title5' color='green'>Початок</Typography>
                             </div>
+                        </div>
+                        <div className='SlideTopic'>
+                            <Typography fontWeight='body2' variant='title5' color='green'>Початок</Typography>
                         </div>
                     </div>
                 </div>
@@ -61,8 +63,10 @@ const ProcessSlider = () => {
                         <div className='SlidePage'>
                             <div className='SlideNumber'>
                                 <Typography fontWeight='body3' variant='title15' color='green'>2/6</Typography>
-                                <Typography fontWeight='body2' variant='title5' color='green'>Кількість</Typography>
                             </div>
+                        </div>
+                        <div className='SlideTopic'>
+                            <Typography fontWeight='body2' variant='title5' color='green'>Кількість</Typography>
                         </div>
                     </div>
                 </div>
@@ -80,8 +84,10 @@ const ProcessSlider = () => {
                         <div className='SlidePage'>
                             <div className='SlideNumber'>
                                 <Typography fontWeight='body3' variant='title15' color='green'>3/6</Typography>
-                                <Typography fontWeight='body2' variant='title5' color='green'>Дизайн</Typography>
                             </div>
+                        </div>
+                        <div className='SlideTopic'>
+                            <Typography fontWeight='body2' variant='title5' color='green'>Дизайн</Typography>
                         </div>
                     </div>
                 </div>
@@ -106,8 +112,10 @@ const ProcessSlider = () => {
                         <div className='SlidePage'>
                             <div className='SlideNumber'>
                                 <Typography fontWeight='body3' variant='title15' color='green'>4/6</Typography>
-                                <Typography fontWeight='body2' variant='title5' color='green'>Виробництво</Typography>
                             </div>
+                        </div>
+                        <div className='SlideTopic'>
+                            <Typography fontWeight='body2' variant='title5' color='green'>Виробництво</Typography>
                         </div>
                     </div>
                 </div>
@@ -129,8 +137,10 @@ const ProcessSlider = () => {
                         <div className='SlidePage'>
                             <div className='SlideNumber'>
                                 <Typography fontWeight='body3' variant='title15' color='green'>5/6</Typography>
-                                <Typography fontWeight='body2' variant='title5' color='green'>Отримання</Typography>
                             </div>
+                        </div>
+                        <div className='SlideTopic'>
+                            <Typography fontWeight='body2' variant='title5' color='green'>Отримання</Typography>
                         </div>
                     </div>
                 </div>
@@ -143,13 +153,15 @@ const ProcessSlider = () => {
                         </div>
                         <div className='SlidePage'>
                             <div className='SliderArrows'>
-                                <img src={DarkArrow} className='DarkArrowMobile'/>
-                                <img src={LightArrow} className='LightArrowMobile'/>
+                                <img src={LightArrow} className='LightArrowMobile ArrowBack'/>
+                                <img src={DarkArrow} className='DarkArrowMobile ArrowBack'/>
                             </div>
-                            <div className='SlideNumber'>
+                            <div className='SlideNumberWithArrows'>
                                 <Typography fontWeight='body3' variant='title15' color='green'>6/6</Typography>
-                                <Typography fontWeight='body2' variant='title5' color='green'>Реалізація</Typography>
                             </div>
+                        </div>
+                        <div className='SlideTopic'>
+                            <Typography fontWeight='body2' variant='title5' color='green'>Реалізація</Typography>
                         </div>
                     </div>
                 </div>

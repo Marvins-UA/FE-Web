@@ -1,4 +1,5 @@
 import './style.scss';
+import React from 'react';
 import ContactsBlock from "../../molecules/ContactsBlock";
 import BecomePartnerForm from "../../molecules/BecomePartnerForm";
 
@@ -9,6 +10,6 @@ function FooterBlock() {
             <ContactsBlock />
         </div>
     );
-}
+};
 
 export default FooterBlock;

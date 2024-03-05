@@ -14,6 +14,7 @@ const initialFormData = {
 
 function BecomePartnerForm() {
     const [formData, setFormData] = useState(initialFormData);
+    const [formIsSent, setFormIsSent] = useState(false);
     const [response, setResponse] = useState(null);
     const [error, setError] = useState(null);
     const [unfilledError, setUnfilledError] = useState(null);
@@ -35,7 +36,7 @@ function BecomePartnerForm() {
             return;
         }
 
-        axios.post('', formData).then((response) => {
+        axios.post('/contacts', formData).then((response) => {
             if (response.status === 201) {
                 localStorage.setItem('username', response.data.username);
                 setResponse({
@@ -49,11 +50,12 @@ function BecomePartnerForm() {
                 setResponse(null);
                 setError(error.message);
             });
-        setFormData(initialFormData);
+        setFormData(formData);
+        setFormIsSent(true);
     }, [formData])
 
     return (
-        <div className='BecomePartnerForm'>
+        <div className={'BecomePartnerForm' + (formIsSent ? ' BecomePartnerFormIsSent' : '')} id='BecomePartnerForm'>
             <div className='BecomePartnerTitle'>
                 <Typography variant='title4' fontWeight='body1'>СТАТИ ПАРТНЕРОМ</Typography>
                 <Typography color='grey' variant='title7' fontWeight='body4'>або задати будь-які запитання</Typography>
@@ -103,13 +105,19 @@ function BecomePartnerForm() {
                     </div>
                 )}
                 <div className="SendButtonDiv">
-                    <Button onSubmit={handleSubmit} backgrndColor='blue' size="small">
-                        <Typography variant='title4' fontWeight='body1'>НАДІСЛАТИ</Typography>
+                    <Button onSubmit={handleSubmit} backgrndColor={formIsSent ? 'green' : 'blue'} size="small">
+                        {formIsSent ?
+                            <Typography variant='title4' fontWeight='body1'>НАДІСЛАНО</Typography> :
+                            <Typography variant='title4' fontWeight='body1'>НАДІСЛАТИ</Typography>
+                        }
                     </Button>
                 </div>
                 <div className="SendButtonDivMobile">
-                    <Button onSubmit={handleSubmit} backgrndColor='blue' size="mobile">
-                        <Typography variant='title16' fontWeight='body1'>НАДІСЛАТИ</Typography>
+                    <Button onSubmit={handleSubmit} backgrndColor={formIsSent ? 'green' : 'blue'} size="mobile">
+                        {formIsSent ?
+                            <Typography variant='title16' fontWeight='body1'>НАДІСЛАНО</Typography> :
+                            <Typography variant='title16' fontWeight='body1'>НАДІСЛАТИ</Typography>
+                        }
                     </Button>
                 </div>
             </form>

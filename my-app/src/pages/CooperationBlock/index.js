@@ -18,8 +18,7 @@ function CooperationBlock() {
                 <div className='LeftTextBlocks'>
                     <div className='TextBlock'>
                         <CooperationTextBlock>
-                            <Typography variant='title6' fontWeight='body3'>ПОЛІПШЕННЯ ВАШОГО РІВНЯ ОБСЛУГОВУВАННЯ, ЩО
-                                КОШТУЄ В <br/>РАЙОНІ 1 ГРИВНІ ЗА ОДИНИЦЮ.</Typography>
+                            <Typography variant='title6' fontWeight='body3'>ПОЛІПШЕННЯ ВАШОГО РІВНЯ ОБСЛУГОВУВАННЯ ЗА ДУЖЕ<br/>НИЗЬКОЮ ЦІНОЮ.</Typography>
                         </CooperationTextBlock>
                         <div className='AdditionalInfCooperation'>
                             <Typography variant='title9' fontWeight='body5' fontStyle='italic'>(ЦІНА ЗАЛЕЖИТЬ ВІД ОБСЯГУ

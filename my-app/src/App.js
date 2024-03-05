@@ -8,6 +8,7 @@ import FooterBlock from "./pages/FooterBlock";
 import ApplicationForm from "./molecules/ApplicationForm";
 import HeaderSlider from "./molecules/HeaderSlider";
 import ProcessSlider from "./molecules/ProcessSlider";
+import FooterAuthorBlock from "./pages/FooterAuthorBlock";
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
                 <FooterBlock />
             </div>
         </div>
+        <FooterAuthorBlock />
     </div>
   );
 }

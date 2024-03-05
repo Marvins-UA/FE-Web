@@ -3,17 +3,17 @@ import './style.scss';
 import Typography from "../../atoms/Typography";
 import Button from "../../atoms/Button";
 import ArrowsBlock from "../../molecules/ArrowsBlock";
-import {useContext, useState} from "react";
+import React, { useState, useEffect, useRef} from 'react';
 import ApplicationForm from "../../molecules/ApplicationForm";
 import SmileFoodGum from "../../atoms/Icons/SmileFoofGum.png";
 import SushiGum from "../../atoms/Icons/SushiGum.png";
 import KidevYellowGum from "../../atoms/Icons/KidevYellowGum.png";
 import LogoMarvins from "../../atoms/Icons/logo_Marvins.png";
 import MobileHeaderText from "../../atoms/MobileHeaderText";
+import FooterBlock from "../FooterBlock";
 
 function HeaderBlock() {
     const [formActive, setFormActive] = useState(false);
-
 
     return (
         <div className="HeaderBlock">
@@ -54,9 +54,11 @@ function HeaderBlock() {
                     <Typography variant='title7' fontWeight='body3'>Або задати будь-які запитання</Typography>
                 </div>
                 <div className='LeaveApplicationBtnMobile'>
-                    <Button size='medium' onClick={() => setFormActive(true)}>
-                        <Typography variant='title14' fontWeight='body3'>ЗАЛИШИТИ ЗАЯВКУ</Typography>
-                    </Button>
+                    <a href='#BecomePartnerForm'>
+                        <Button size='medium'>
+                            <Typography variant='title14' fontWeight='body3'>ЗАЛИШИТИ ЗАЯВКУ</Typography>
+                        </Button>
+                    </a>
                     <Typography variant='title6' fontWeight='body6'>Або задати будь-які запитання</Typography>
                 </div>
             </div>
