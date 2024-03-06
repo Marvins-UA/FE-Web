@@ -1,0 +1,55 @@
+.AdvantagesBlock{
+  padding: 36px 76px 0 68.6px;
+
+  .AdvantagesContent{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 122.6px;
+    padding-top: 51.3px;
+
+    .ISOImg{
+      width: 301.3px;
+      height: 306px;
+    }
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .AdvantagesBlock{
+    padding: 0;
+
+    .AdvantagesTitle{
+      display:none;
+    }
+
+    .AdvantagesContent{
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding-top: 62px;
+
+      .ISODivideBlock{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 96px;
+      }
+
+      .ISOImg{
+        width: 209px;
+        height: 213px;
+      }
+    }
+
+  }
+}
+
+@media screen and (min-width: 1291px) {
+  .AdvantagesBlock{
+    .AdvantagesTitleMobile{
+      display:none;
+    }
+  }
+}

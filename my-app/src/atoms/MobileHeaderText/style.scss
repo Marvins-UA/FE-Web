@@ -1,0 +1,10 @@
+.MobileHeaderText{
+  text-align: left;
+  padding-bottom: 39px;
+}
+
+@media screen and (min-width: 1291px) {
+  .MobileHeaderText{
+    display: none;
+  }
+}

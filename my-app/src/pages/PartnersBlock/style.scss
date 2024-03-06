@@ -1,0 +1,25 @@
+.PartnersBlock{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36.6px;
+  padding-top: 110.6px;
+}
+
+@media screen and (max-width: 1290px) {
+  .PartnersBlock{
+    gap: 17px;
+    padding-top: 45px;
+    .PartnersTitle{
+      display:none;
+    }
+  }
+}
+
+@media screen and (min-width: 1291px) {
+  .PartnersBlock{
+    .PartnersMobileTitle{
+      display: none;
+    }
+  }
+}

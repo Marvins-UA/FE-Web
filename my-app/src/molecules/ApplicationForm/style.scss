@@ -1,0 +1,166 @@
+@import '../../colors';
+
+.Overlay{
+  transform: scale(0);
+  display: grid;
+  place-items: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.OverlayActive{
+  transform: scale(1);
+  display: grid;
+  place-items: center;
+  background-color: $applicationFormBackground;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.FormIsSentOverlay{
+  background: linear-gradient(180deg, #15643e -25.4%, #040404 40.6%);
+}
+
+.ApplicationForm{
+  .ApplicationFormHeader{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 73.3px;
+
+    .LogoMarvins{
+      width: 48px;
+      height: 51.3px;
+      padding-bottom: 112.6px;
+    }
+
+    .CrossIcon{
+      width: 31.9px;
+      position: absolute;
+      right: 252.7px;
+      padding-top: 32px;
+    }
+  }
+
+  .ApplicationFormBlock{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 103.6px;
+    gap: 30.6px;
+
+    .InputLabels{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 67px;
+      padding-top: 4px;
+    }
+  }
+
+  .ApplicationFormSent{
+    display: flex;
+    flex-direction: column;
+
+    .FormIsSentText{
+      position: absolute;
+      margin-top: 334px;
+    }
+  }
+
+  .InputsDiv{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 63.3px;
+
+    Input::placeholder{
+      color: $applicationInputPlaceholder;
+      font-size: 16px;
+      font-family: 'Inter', sans-serif;
+      font-style: italic;
+      font-weight: 400;
+    }
+
+    .InputBlock{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .ApplicationFormInput{
+        border: none;
+        border-bottom: 2.6px solid $white;
+        background: none;
+        outline: none;
+        color: $white;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        padding-left: 10.6px;
+        width: calc(100% - 10.6px);
+      }
+
+      .NameInputContainer{
+        width: 400px;
+      }
+
+      .CityInputContainer{
+        width: 400px;
+      }
+    }
+
+    .NameInput{
+      gap: 76.6px;
+    }
+
+    .PhoneInput{
+      gap: 30.6px;
+
+      .PhoneInputContainer{
+        align-items: center;
+        position: relative;
+        display: inline-block;
+        width: 400px;
+
+        .PhoneType{
+          position: absolute;
+          padding-left: 10.6px;
+        }
+
+        .ApplicationFormInputPhone{
+
+          padding-left: 62px;
+        }
+      }
+    }
+
+    .CityInput{
+      gap: 56.6px;
+    }
+  }
+
+  .SendButtonDiv{
+    margin-top: 40.6px;
+    margin-bottom: 174.6px;
+    position: relative;
+  }
+
+  .ErrorMessage{
+    position: absolute;
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+    margin-left: 116px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .Overlay{
+    display:none;
+  }
+  .OverlayActive{
+    display:none;
+  }
+}

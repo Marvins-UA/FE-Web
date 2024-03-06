@@ -5,7 +5,7 @@ import './style.scss';
 
 function CooperationBlock() {
     return (
-        <div className="CooperationBlock">
+        <div className="CooperationBlock" id='cooperationSection'>
             <div className='CooperationHeader'>
                 <div className='MainTitleCooperation'>
                     <Typography fontWeight='body3' variant='title3'>СПІВПРАЦЯ З MARVINS™ ЦЕ НЕ <br/>ПРОСТО  ЖУВАЛЬНА ГУМКА З ВАШИМ <br/>ВЛАСНИМ ДИЗАЙНОМ, ЦЕ:</Typography>
@@ -18,8 +18,7 @@ function CooperationBlock() {
                 <div className='LeftTextBlocks'>
                     <div className='TextBlock'>
                         <CooperationTextBlock>
-                            <Typography variant='title6' fontWeight='body3'>ПОЛІПШЕННЯ ВАШОГО РІВНЯ ОБСЛУГОВУВАННЯ, ЩО
-                                КОШТУЄ В <br/>РАЙОНІ 1 ГРИВНІ ЗА ОДИНИЦЮ.</Typography>
+                            <Typography variant='title6' fontWeight='body3'>ПОЛІПШЕННЯ ВАШОГО РІВНЯ ОБСЛУГОВУВАННЯ ЗА ДУЖЕ<br/>НИЗЬКОЮ ЦІНОЮ.</Typography>
                         </CooperationTextBlock>
                         <div className='AdditionalInfCooperation'>
                             <Typography variant='title9' fontWeight='body5' fontStyle='italic'>(ЦІНА ЗАЛЕЖИТЬ ВІД ОБСЯГУ
@@ -62,8 +61,9 @@ function CooperationBlock() {
                     <div className='TextBlock5'>
                         <CooperationTextBlock>
                             <Typography variant='title6' fontWeight='body3'>
-                                <Typography variant='title6' fontWeight='body3' color='green'> НАТИВНА РЕКЛАМА</Typography>
-                                , ЩО НАГАДАЄ КЛІЄНТУ ПРО ВАС В СИТУАЦІЇ<br/>КОЛИ ВІН ПОКЛАДЕ ГУМКУ ДО КИШЕНІ І ДІСТАНЕ ЇЇ ЧЕРЕЗ<br/>ДЕЯКИЙ ЧАС
+                                <Typography variant='title6' fontWeight='body3' color='green'> НАТИВНА
+                                    РЕКЛАМА</Typography>
+                                , ЩО НАГАДАЄ КЛІЄНТУ ПРО ВАС В<br/>СИТУАЦІЇКОЛИ ВІН ПОКЛАДЕ ГУМКУ ДО КИШЕНІ І<br/>ДІСТАНЕ ЇЇ ЧЕРЕЗДЕЯКИЙ ЧАС
                             </Typography>
                         </CooperationTextBlock>
                     </div>

@@ -1,0 +1,15 @@
+@import '../../colors';
+
+.FooterAuthorBlock{
+  background-color: $black;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  A{
+    color: $white;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}

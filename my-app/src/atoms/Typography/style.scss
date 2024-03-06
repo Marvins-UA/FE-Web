@@ -1,4 +1,5 @@
 @import '../../colors';
+
 .AppTypography{
   font-family: 'Inter';
   font-style: normal;
@@ -35,20 +36,45 @@
   &.SizeTitle10{
     font-size: 8.6px;
   }
+  &.SizeTitle11{
+    font-size: 16.6px;
+  }
+  &.SizeTitle12{
+    font-size: 12px;
+  }
+  &.SizeTitle13{
+    font-size: 18px;
+  }
+  &.SizeTitle14{
+    font-size: 14px;
+  }
+  &.SizeTitle15{
+    font-size: 15px;
+  }
+  &.SizeTitle16{
+    font-size: 20px;
+  }
+
   &.FontWeightBody1{
     font-weight: 900;
   }
   &.FontWeightBody2{
-    font-weight: 533;
+    font-weight: 800;
   }
   &.FontWeightBody3{
     font-weight: 700;
   }
   &.FontWeightBody4{
-    font-weight: 400;
+    font-weight: 600;
   }
   &.FontWeightBody5{
     font-weight: 500;
+  }
+  &.FontWeightBody6{
+    font-weight: 400;
+  }
+  &.FontWeightBody7{
+    font-weight: 300;
   }
   &.TextColorWhite{
     color:$white;
@@ -62,11 +88,20 @@
   &.TextColorLightGrey{
     color:$lightGrey;
   }
+  &.TextColorTransparentGrey{
+    color:$transparentGrey;
+  }
+  &.TextColorAddInfGrey{
+    color:$AddInfGrey;
+  }
   &.TextColorGreen{
     color:$green;
   }
   &.TextColorYellow{
     color:$yellow;
+  }
+  &.TextColorRed{
+    color:$red;
   }
   &.FontStyleItalic{
     font-style: italic;

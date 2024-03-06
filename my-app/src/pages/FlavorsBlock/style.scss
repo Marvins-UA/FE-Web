@@ -1,15 +1,10 @@
 .FlavorsBlock{
-  margin: 0; /* Заборонити зовнішні відступи боді */
-  display: grid;
-  place-items: center; /* Розміщення елементів по центру по горизонталі та вертикалі */
+  width: 100%;
+  padding-top: 73.6px;
 
   .FlavorsDiv{
-    width:983.28px;
+    //width:983.28px;
     justify-content: space-between;
-  }
-
-  .FlavorsHeaderDiv{
-
   }
 }
 
@@ -18,35 +13,65 @@
   flex-direction: row;
   align-items: flex-start;
   gap: 808.6px;
-  padding-bottom: 64px;
-
-
+  padding-bottom: 48px;
+  justify-content: space-between;
 
   .EmojiIcon{
     width: 45.3px;
     height:45.3px;
+    //padding-left:
   }
 }
 
-.FlavorsImagesBlock{
-  display:flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  //gap: 99.3px;//
-  padding-left: 12.81%;
-  padding-right: 12.81%;
-  padding-bottom: 46px;
-}
+@media screen and (max-width: 1290px) {
+  .FlavorsBlock{
+    padding-top: 26px;
 
-.FlavorsTextBlock{
-  display: flex;
-  flex-direction: row;
-  gap: 149px;
-  align-items: center;
-  justify-content: center;
+    .FlavorsDiv{
 
-  .TextBlock{
-    text-align: left;
+      .FlavorsHeaderDiv{
+        display: none;
+      }
+
+      .FlavorsContentMobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 77px;
+      }
+    }
+
+    .FlavorsHeader{
+      padding-bottom: 35px;
+
+      .MainTitleFlavor{
+        display:none;
+      }
+
+      .MainTitleFlavorMobile{
+         display:flex;
+         justify-content: center;
+       }
+    }
+
+    .EmojiIcon{
+      display:none;
+    }
+
+    .FlavorsDividingBlock{
+      padding-right: 27px;
+    }
+
   }
 }
+
+@media screen and (min-width: 1291px) {
+  .MainTitleFlavorMobile{
+    display:none;
+  }
+
+  .FlavorsDividingBlock{
+    display:none;
+  }
+}
+

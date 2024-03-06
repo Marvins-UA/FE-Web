@@ -17,17 +17,26 @@ function Typography (props){
             'SizeTitle9': variant === 'title9',
             'SizeTitle10': variant === 'title10',
             'SizeTitle11': variant === 'title11',
+            'SizeTitle12': variant === 'title12',
+            'SizeTitle13': variant === 'title13',
+            'SizeTitle14': variant === 'title14',
+            'SizeTitle15': variant === 'title15',
+            'SizeTitle16': variant === 'title16',
             'FontWeightBody1': fontWeight === 'body1',
             'FontWeightBody2': fontWeight === 'body2',
             'FontWeightBody3': fontWeight === 'body3',
             'FontWeightBody4': fontWeight === 'body4',
             'FontWeightBody5': fontWeight === 'body5',
+            'FontWeightBody6': fontWeight === 'body6',
             'TextColorWhite': color === 'white',
             'TextColorDarkGrey': color === 'darkGrey',
             'TextColorGrey': color === 'grey',
             'TextColorLightGrey': color === 'lightGrey',
+            'TextColorTransparentGrey': color === 'transparentGrey',
+            'TextColorAddInfGrey': color === 'addInfGrey',
             'TextColorGreen': color === 'green',
             'TextColorYellow': color === 'yellow',
+            'TextColorRed': color === 'red',
             'FontStyleItalic': fontStyle === 'italic',
         })}>{props.children}</p>
     )}
@@ -36,7 +45,7 @@ Typography.propTypes = {
     fontWeight:PropTypes.string,
     fontStyle:PropTypes.string,
     variant: PropTypes.string,
-    color: PropTypes.oneOf(['white', 'grey', 'lightGrey', 'green', 'yellow', 'darkGrey']),
+    color: PropTypes.oneOf(['white', 'grey', 'lightGrey', 'transparentGrey', 'addInfGrey', 'green', 'yellow', 'darkGrey', 'red']),
 }
 
 Typography.defaultProps = {

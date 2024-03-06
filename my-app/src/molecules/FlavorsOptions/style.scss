@@ -1,0 +1,17 @@
+.FlavorsOptionsBlock{
+  display:flex;
+  flex-direction: row;
+  gap: 96.6px;
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1290px) {
+  .FlavorsOptionsBlock{
+    flex-direction: column;
+    padding-left: 13px;
+    gap: 6px;
+    align-items: flex-start;
+    padding-bottom: 20px;
+  }
+}

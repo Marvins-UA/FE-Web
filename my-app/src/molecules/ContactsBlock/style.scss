@@ -1,0 +1,81 @@
+.ContactsBlock{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 38px;
+
+  .ContactDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13.6px;
+
+    .PhoneContactTitle{
+      display:flex;
+      align-items: flex-end;
+      gap: 9.3px;
+    }
+
+    .MailContactTitle{
+      display:flex;
+      align-items: center;
+      gap: 6.5px;
+      padding-top: 10px;
+    }
+
+    .PhoneIcon{
+      width: 26.6px;
+      height: 29px;
+    }
+
+    .MailIcon{
+      width: 34px;
+      height: 25px;
+    }
+
+    a{
+      text-decoration: none;
+    }
+  }
+
+  .SocialMediaDiv{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+
+    img{
+      width: 46.6px;
+      height: 46.6px;
+    }
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .ContactsBlock{
+    gap: 51px;
+
+    .ContactDiv{
+      gap: 8px;
+
+      .PhoneContactTitle{
+        gap: 10.28px;
+      }
+      .MailContactTitle{
+        gap: 6.82px;
+        padding: 0;
+      }
+    }
+
+    .SocialMediaDiv{
+      gap: 32px;
+      flex-direction: row-reverse;
+      padding-top: 11px;
+
+      img{
+        width: 50.26px;
+        height: 50.26px;
+      }
+    }
+  }
+}

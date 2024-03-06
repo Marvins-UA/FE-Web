@@ -1,0 +1,31 @@
+.ArrowsBlock{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 294.6px;
+  padding-right: 294.6px;
+
+  .TwoArrowsBlock{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    box-sizing: border-box;
+
+    .DarkArrow{
+      width:81.26px;
+      height:auto;
+      margin-bottom: -18px;
+    }
+
+    .LightArrow{
+      width:81.26px;
+      height:auto;
+    }
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .ArrowsBlock {
+    display:none;
+  }
+}

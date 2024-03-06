@@ -1,0 +1,53 @@
+.PackagingLine, .HeaderPackagingLine{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 36.6px 262px 0 262px;
+
+  img{
+    width: 102px;
+    height: 82px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .PackagingLine{
+    padding: 8px 0 19px 0;
+    img:nth-child(9),
+    img:nth-child(8),
+    img:nth-child(7),
+    img:nth-child(6),
+    img:nth-child(3),
+    img:nth-child(1){
+      display:none;
+    }
+
+    img{
+      width: 145px;
+      height: 116px;
+    }
+  }
+
+  .HeaderPackagingLine{
+    padding: 0 0 34px 0;
+
+    .LogoPackageBlock{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img{
+        width:163px;
+        height:128px;
+      }
+      .LogoMarvins{
+        width:29px;
+        height:30px;
+        padding-right: 45px;
+      }
+    }
+
+
+  }
+}

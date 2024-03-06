@@ -1,0 +1,41 @@
+.ProcessText{
+  display:flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: left;
+  padding-top: 54px;
+
+  .ProcessTextBlock{
+    display:flex;
+    flex-direction: column;
+    gap: 12.6px;
+
+    .AmountTextBlock{
+      padding-top: 41.3px;
+      padding-bottom: 44.6px;
+      display:flex;
+      flex-direction: column;
+      gap: 12.6px;
+
+      .AmountText{
+        display:flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+
+    .ReceivingTextBlock{
+      padding-top: 59.3px;
+      padding-bottom: 71.3px;
+      display:flex;
+      flex-direction: column;
+      gap: 12.6px;
+    }
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .ProcessText{
+    display: none;
+  }
+}

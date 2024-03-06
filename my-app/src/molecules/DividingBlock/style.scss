@@ -1,0 +1,32 @@
+.DividingBlock{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  .DividingBlockArrows{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    box-sizing: border-box;
+
+    .DarkArrowMobile{
+      width: auto;
+      height: 39px;
+      transform: rotate(90deg);
+      margin-bottom: -25px;
+    }
+
+    .LightArrowMobile{
+      width: auto;
+      height: 39px;
+      transform: rotate(90deg);
+    }
+  }
+}
+
+@media screen and (min-width: 1291px) {
+  .DividingBlock {
+    display:none;
+  }
+}

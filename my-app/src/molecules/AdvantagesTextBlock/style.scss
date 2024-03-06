@@ -1,0 +1,43 @@
+.AdvantagesTextBlocks, .AdvantagesTextBlocksMobile{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 21.3px;
+
+  .AdvantagesTextBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 8.6px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .AdvantagesTextBlocks{
+    display: none;
+  }
+  .AdvantagesTextBlocksMobile{
+    align-items: center;
+    gap: 50px;
+
+    .MobileAdvantageBlock{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .MobileAdvantageBlock3{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .AdvantagesTextBlock{
+      gap: 11px;
+    }
+  }
+}
+
+@media screen and (min-width: 1291px) {
+  .AdvantagesTextBlocksMobile{
+    display: none;
+  }
+}

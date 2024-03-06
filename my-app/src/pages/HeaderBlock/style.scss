@@ -1,11 +1,11 @@
 .HeaderBlock{
-  padding-bottom: 88px;
-  width:100vw;
+  width:100%;
 }
 .HeaderInfoBlock{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 118.6px;
 
   .HeaderText{
     display:flex;
@@ -34,11 +34,7 @@
     }
 
     .AdditionalInfTitle{
-      display:flex;
-      flex-direction: column;
-      align-items: flex-start;
       letter-spacing: 0.9px;
-      gap: 8.6px;
     }
   }
   .LeaveApplicationBtn{
@@ -48,3 +44,81 @@
     gap:3.3px;
   }
 }
+
+@media screen and (min-width: 1291px) {
+  .HeaderBlock {
+    .HeaderPackagingLine {
+      display:none;
+    }
+
+    .MainTitleMobile{
+      display:none;
+    }
+
+    .AdditionalInfTitleMobile{
+      display:none;
+    }
+
+    .LeaveApplicationBtnMobile{
+      display:none;
+    }
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .HeaderBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .MainTitle:nth-child(1){
+      display:none;
+    }
+
+    .AdditionalInfTitle{
+       display:none;
+    }
+
+    .AdditionalInfTitleMobile{
+      padding-bottom: 47px;
+    }
+
+    .MainTitleMobile{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 19px;
+      letter-spacing: 2.9px;
+      padding-bottom: 10px;
+    }
+
+    .HeaderInfoBlock{
+      padding-bottom: 30px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .HeaderTextMobile{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 86px;
+    }
+
+    .HeaderText{
+      display:none;
+    }
+
+    .LeaveApplicationBtn{
+      display:none;
+    }
+
+    .LeaveApplicationBtnMobile{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6.87px;
+    }
+  }
+}
+

@@ -1,0 +1,103 @@
+@import '../../colors';
+
+.BecomePartnerForm{
+  width: 314px;
+  height: 307.3px;
+  background-color: $black;
+  border-radius: 47.3px;
+  border: $white 2.6px solid;
+
+  .BecomePartnerTitle, .BecomePartnerTitleMobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.3px;
+    padding-top: 25.3px;
+    padding-bottom: 18.5px;
+  }
+
+  .PartnerFormBlock{
+    display: flex;
+    flex-direction: column;
+
+    .SendButtonDiv{
+      margin-top: 38px;
+      margin-bottom: 53.3px;
+      position:relative;
+    }
+
+    .InputsDiv{
+      display:flex;
+      flex-direction: column;
+      gap: 21.3px;
+
+      .PartnerFormInput{
+        border: none;
+        border-bottom: 1.3px solid $white;
+        padding: 4.5px;
+        background: none;
+        width: 220.5px;
+        outline: none;
+        color: $white;
+      }
+    }
+
+    .ErrorMessage{
+      position: absolute;
+      margin-left: 75px;
+      margin-top: 122px;
+    }
+  }
+}
+
+.BecomePartnerFormIsSent{
+  background: linear-gradient(180deg, #8fffb5 -103%, #000 47.32%);
+}
+
+@media screen and (max-width: 1290px) {
+  .BecomePartnerForm{
+    width: 250px;
+    height: 275px;
+    border-radius: 39px;
+    border: $white 2px solid;
+    .BecomePartnerTitle{
+      display:none;
+    }
+    .BecomePartnerTitleMobile{
+      padding-top: 21px;
+      gap: 6px;
+      padding-bottom: 20px;
+    }
+
+    .PartnerFormBlock{
+      .ErrorMessage{
+        margin-left: 46px;
+      }
+      .InputsDiv{
+        gap: 20px;
+
+        .PartnerFormInput{
+          width: 192.27px;
+          font-size: 15px;
+        }
+      }
+      .SendButtonDivMobile{
+        margin-top: 21.7px;
+      }
+      .SendButtonDiv{
+        display:none;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1291px) {
+  .BecomePartnerForm{
+    .BecomePartnerTitleMobile{
+      display:none;
+    }
+    .SendButtonDivMobile{
+      display:none;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.ProcessHeader{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 39.3px;
+  padding-top: 62px;
+
+  .ProcessIcon{
+    width: 45.3px;
+    height: 47.3px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .ProcessHeader {
+    padding-top: 22px;
+    padding-bottom: 22px;
+
+    .ProcessIcon{
+      display: none;
+    }
+
+    .ProcessHeaderTitle{
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 1291px) {
+    .ProcessHeaderTitleMobile{
+      display: none;
+    }
+}
